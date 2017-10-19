@@ -7,4 +7,9 @@ public class ComplementString extends Complement {
 	public ComplementString(String name) {
 		this.name = name;
 	}
+
+	@Override
+	public String getText() {
+		return this.name;
+	}
 }

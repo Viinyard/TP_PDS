@@ -6,4 +6,9 @@ public class ComplementId extends Complement {
 	public ComplementId(Id id) {
 		this.id = id;
 	}
+
+	@Override
+	public String getText() {
+		return this.id.getName();
+	}
 }

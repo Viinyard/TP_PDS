@@ -15,7 +15,7 @@ public class Main {
     // Use with a manually made AST
 //    ASD.Document ast = new ASD.Document(new Fichier(new ArrayList<Sujet>()));
 //    System.out.println(ast.toNtriples());
-
+   
 
     // Use with lexer and parser
     

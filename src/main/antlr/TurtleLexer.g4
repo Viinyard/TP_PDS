@@ -20,5 +20,5 @@ DOT : '.';
 QUOTE : '"';
 SEMICOLON : ';';
 
-STRING : ('a'..'z' | 'A'..'Z' | '0'..'9' | '-' | ' ')+; 
+STRING : ASCII+; 
 
